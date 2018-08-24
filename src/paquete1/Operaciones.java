@@ -24,7 +24,7 @@ public enum Operaciones {
 		public double resultado(double ope1, double ope2) {
 			return ope1 / ope2;
 		}
-	};
+	};  
 	
 	private String tipo;
 	

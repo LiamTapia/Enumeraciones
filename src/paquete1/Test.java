@@ -9,6 +9,7 @@ public class Test {
 		double b = 4;
 		double res = Operaciones.SUMA.resultado(a,b);
 		System.out.println(res); //patron de diseño state
+		System.out.println("Hola mundosaurio");
 
 	}
 
