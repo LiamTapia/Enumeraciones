@@ -8,8 +8,13 @@ public class Test {
 		double a = 2;
 		double b = 4;
 		double res = Operaciones.SUMA.resultado(a,b);
-		System.out.println(res); //patron de diseño state
+		System.out.println(res); //patron de diseÃ±o state
 		System.out.println("Hola mundosaurio");
+		
+		Operaciones ope[] = Operaciones.values();
+		for(int i= 0; i < ope.length; i++){
+			System.out.println(ope[i].name());
+		}
 
 	}
 
