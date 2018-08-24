@@ -11,6 +11,10 @@ public class Test {
 		System.out.println(res); //patron de diseño state
 		System.out.println("Hola mundosaurio");
 
+		for(Operaciones ope:Operaciones.values()){
+			System.out.println(ope.name());
+		}
+		
 	}
 
 }
