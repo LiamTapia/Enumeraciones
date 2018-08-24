@@ -10,11 +10,6 @@ public class Test {
 		double res = Operaciones.SUMA.resultado(a,b);
 		System.out.println(res); //patron de diseño state
 		System.out.println("Hola mundosaurio");
-		
-		Operaciones ope[] = Operaciones.values();
-		for(int i= 0; i < ope.length; i++){
-			System.out.println(ope[i].name());
-		}
 
 		for(Operaciones ope:Operaciones.values()){
 			System.out.println(ope.name());
